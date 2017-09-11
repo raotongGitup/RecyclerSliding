@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.recyclersliding.MyFragment">
+    <TextView
+        android:id="@+id/index"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="0"
+        android:textColor="@android:color/black"/>
+    <com.example.admin.recyclersliding.view.RecyclerCoverFlow
+        android:id="@+id/list"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"></com.example.admin.recyclersliding.view.RecyclerCoverFlow>
+
+</LinearLayout>
